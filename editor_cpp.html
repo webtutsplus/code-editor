@@ -20,9 +20,6 @@
 <body>
 
 <div class="container" style=" margin-top: 30px;">
-  <option>
-     <select></select>
-  </option>
     <div class="row">
         <div class="col">
 <pre id="editor">
@@ -45,7 +42,7 @@ execute()
 <script>
     var editor = ace.edit("editor");
     editor.setTheme("ace/theme/twilight");
-    editor.session.setMode("ace/mode/python");
+    editor.session.setMode("ace/mode/cpp");
 
     $(document).ready(function(){
       $("button").click(function(){
@@ -54,7 +51,7 @@ execute()
         console.log(code);
         let data = {
           "source_code": code,
-          "language_id": "70",
+          "language_id": "53",
           "number_of_runs": "1",
           "stdin": "Judge0",
           "expected_output": null,
