@@ -21,8 +21,6 @@ body {
     background: #fff url(../img/down.svg) no-repeat center right 12px / 18px 18px;
     transition: all .2s ease-in-out;
   }
-
-  /*IE*/
   .myselect::-ms-expand {
     display: none;
   }
@@ -34,5 +32,5 @@ body {
   }
 
   h1 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
