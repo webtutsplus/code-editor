@@ -7,7 +7,6 @@ function codeEditor(lang_id) {
   var editor = ace.edit("editor");
   editor.setTheme("ace/theme/twilight");
 
-
   console.log("id" + lang_id )
   $(document).ready(function () {
     $("button").click(function () {
