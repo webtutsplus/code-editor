@@ -42,7 +42,7 @@
         environment = { PORT = "8080"; };
         serviceConfig = {
           # The actual command to run
-          ExecStart = "${nodejs}/bin/node ${app}/server.js";
+          ExecStart = "${nodejs}/bin/node ${app}/server1.js";
           # For security reasons we'll run this process as a special 'nodejs' user
           User = "nodejs";
           Restart = "always";

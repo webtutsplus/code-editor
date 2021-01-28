@@ -441,7 +441,7 @@
 * Unit tests can also be run in the browser
   <https://github.com/ajaxorg/ace/blob/master/lib/ace/test/tests.html>
 * Soft wrap can adapt to the width of the editor (Mike Ratcliffe, Joe Cheng)
-* Add minimal node server server.js to run the Ace demo in Chrome
+* Add minimal node server server1.js to run the Ace demo in Chrome
 * The top level editor.html demo has been renamed to index.html
 * Bug fixes
   - Fixed gotoLine to consider wrapped lines when calculating where to scroll to (James Allen)
